@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Q8</title>
+  </head>
+
+  <body>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Survey Form</legend>
+
+        <h2>Contact Information</h2>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first-name" id="first-name" />
+        <br />
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" id="last-name" />
+
+        <h2>Geographic Information</h2>
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state" />
+        <br />
+        <label for="zip-code">Zip-Code:</label>
+        <input type="text" name="zip-code" id="zip-code" />
+
+        <h2>How did you hear about us?</h2>
+        <input type="checkbox" name="medium" id="websearch" value="websearch" />
+        <label for="websearch">Websearch</label>
+        <br />
+        <input type="checkbox" name="medium" id="facebook" value="facebook" />
+        <label for="facebook">Facebook</label>
+        <br />
+        <input type="checkbox" name="medium" id="twitter" value="twitter" />
+        <label for="twitter">Twitter</label>
+        <br />
+        <input
+          type="checkbox"
+          name="medium"
+          id="email-message"
+          value="email-message"
+        />
+        <label for="email-message">Email Message</label>
+
+        <h2>Any Suggestions</h2>
+        <textarea
+          name="suggestions"
+          id="suggestions"
+          cols="30"
+          rows="10"
+        ></textarea>
+
+        <h2>Thank you for taking our survey.</h2>
+
+        <input type="submit" />
+        <input type="Reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  /* border: 1px dashed rgba(0, 0, 0, 0.25); */
+  padding: 1rem;
+}
+
+img {
+  width: 200px;
+}
+
+#header,
+#sidebar {
+  background-color: #ddd;
+}
+
+#header,
+#footer {
+  text-align: center;
+}
+
+#footer {
+  background-color: #222;
+  color: white;
+}

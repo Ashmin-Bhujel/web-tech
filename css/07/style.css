@@ -1,0 +1,21 @@
+.inline,
+.inline-block,
+.block {
+  background-color: orange;
+  padding: 0.25rem;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}

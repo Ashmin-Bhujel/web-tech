@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+div {
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+#header {
+  background-color: #222;
+}
+
+#home {
+  background-color: orange;
+}
+
+#about {
+  background-color: crimson;
+}
+
+#services {
+  background-color: limegreen;
+}
+
+#contact {
+  background-color: royalblue;
+}
+
+#footer {
+  background-color: #222;
+}
+
+#header,
+#footer {
+  text-align: center;
+  color: white;
+}
+
+#nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+#nav li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

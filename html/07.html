@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Q7</title>
+  </head>
+
+  <body>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Personal car information</legend>
+
+        <label for="full-name">Full Name:</label>
+        <input
+          type="text"
+          placeholder="Your full name"
+          name="full-name"
+          id="full-name"
+        />
+
+        <br />
+
+        <label for="current-city">Current City:</label>
+        <input
+          type="text"
+          placeholder="Where is your city"
+          name="current-city"
+          id="current-city"
+        />
+
+        <br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          placeholder="example@gmail.com"
+          name="email"
+          id="email"
+        />
+
+        <br />
+
+        <label for="phone">Phone:</label>
+        <input type="text" placeholder="9*********" name="phone" id="phone" />
+
+        <br />
+        <span>Gender:</span>
+        <input type="radio" name="gender" id="male" value="male" checked />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="male">Female</label>
+
+        <br />
+
+        <label for="birthday">Birthday:</label>
+        <input
+          type="date"
+          name="birthday"
+          id="birthday"
+          max="2024-04-20"
+          value="2024-04-20"
+        />
+
+        <br />
+
+        <label for="">Choose Car Company:</label>
+        <select name="car-company" id="car-company">
+          <option value="none">Select Car Company</option>
+
+          <optgroup label="US">
+            <option value="tesla">Tesla</option>
+            <option value="ford">Ford</option>
+          </optgroup>
+
+          <optgroup label="India">
+            <option value="tata">Tata</option>
+            <option value="mahindra">Mahindra</option>
+          </optgroup>
+
+          <optgroup label="Japan">
+            <option value="honda">Honda</option>
+            <option value="toyota">Toyota</option>
+          </optgroup>
+        </select>
+
+        <br />
+
+        <label for="addition-info">Additional Information</label>
+        <br />
+        <textarea
+          name="addition-info"
+          id="addition-info"
+          cols="30"
+          rows="10"
+        ></textarea>
+
+        <br />
+
+        <input
+          type="checkbox"
+          name="is-agreed"
+          id="is-agreed"
+          value="true"
+          required
+        />
+        <label for="agree">I agree to terms and policy.</label>
+
+        <br />
+
+        <input type="submit" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+ul li a:hover {
+  color: orange;
+}
+
+input:not([type="submit"]):focus {
+  color: limegreen;
+}
+
+#paragraph::before,
+#paragraph::after {
+  font-weight: bold;
+}
+
+#paragraph::before {
+  content: "Before Pseudo-Class ";
+  color: orange;
+}
+
+#paragraph::after {
+  content: " After Pseudo-Class";
+  color: royalblue;
+}
