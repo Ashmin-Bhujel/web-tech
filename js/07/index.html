@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS - Q7</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Form Validation</legend>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone" />
+
+        <label for="password">Password</label>
+        <input type="text" name="password" id="password" />
+
+        <input type="submit" value="Validate" />
+        <input type="reset" value="Reset" />
+      </fieldset>
+    </form>
+
+    <div id="output">
+      <p>Email: <span id="email-result"></span></p>
+      <p>Phone: <span id="phone-result"></span></p>
+      <p>Password: <span id="password-result"></span></p>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+  </body>
+</html>
