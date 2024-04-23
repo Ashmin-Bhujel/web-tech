@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS - Q14</title>
+
+    <!-- Internal CSS -->
+    <style>
+      body {
+        padding: 2rem;
+      }
+
+      #car {
+        position: relative;
+        width: 300px;
+        margin-top: 2rem;
+      }
+
+      #road {
+        background-color: #222;
+        height: 2rem;
+      }
+
+      #controls {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./car.jpg" alt="car" id="car" />
+
+    <div id="road"></div>
+
+    <div id="controls">
+      <button id="forward">Forward</button>
+      <button id="stop">Stop</button>
+      <button id="reverse">Reverse</button>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="../jquery/jquery-3.7.1.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
